@@ -1,7 +1,7 @@
 import google.generativeai as genai
 import os 
 
-API_KEY = "AIzaSyArUDVwxItsfr9lp4a10gh4sQOTRTsknXE"
+API_KEY = "AIzaSyArUDVwxItsfr9lp4a10gh4sQOTRTsknXE"  #Generated API Key
 
 if not API_KEY or API_KEY == "AIzaSyCUyp6pdify_swdJr03CWGZ9PJJnfriiNk":
     print("Error with your API id!!")
