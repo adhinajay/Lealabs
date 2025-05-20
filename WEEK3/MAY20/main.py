@@ -27,6 +27,5 @@ async def main():
         print("\n🧹 PylintLinter")
         print("📋 Pylint Linter Output:\n", lint_result)
 
-# ✅ For normal scripts (VSCode, terminal), use this:
 if __name__ == "__main__":
     asyncio.run(main())
