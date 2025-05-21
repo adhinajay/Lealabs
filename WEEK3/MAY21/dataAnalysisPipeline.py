@@ -110,7 +110,7 @@ async def main():
 
     chat = RoundRobinGroupChat(agents=[data_fetcher, analyst])
 
-    # Change this to your local CSV file path or URL
+    #local CSV file path
     csv_path_or_url = "WEEK3\MAY21\house_price.csv"  
 
     # Step 1: Fetch data
